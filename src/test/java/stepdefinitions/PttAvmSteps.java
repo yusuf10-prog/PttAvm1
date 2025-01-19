@@ -68,6 +68,7 @@ public class PttAvmSteps {
         }
     }
 
+
     @Given("user is on the PttAVM homepage")
     public void userIsOnHomepage() {
         if (!driver.getCurrentUrl().contains("pttavm.com")) {
